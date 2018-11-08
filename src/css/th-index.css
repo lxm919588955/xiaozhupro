@@ -1,0 +1,279 @@
+._right{
+	float: right;
+}
+._left{
+	float: left;
+}
+#th-nav,#th-man{
+	overflow: hidden;
+	width: 1024px;
+	margin: 0 auto;
+}
+#th-nav{
+	text-align: left;
+	font-size: 14px;
+	color: grey;
+	line-height: 50px;
+}
+.man-l{
+	width: 624px;
+}
+.man-r{
+	width: 320px;
+	padding: 0 20px 20px 20px;
+}
+.mam-img{
+	width: 100%;
+	height: 468px;
+}
+.man-list-img{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+.man-list-img img{
+	width: 110px;
+	height: 85px;
+	border: 2px solid white;
+}
+.man-list-img img:hover{
+	border-color: red;
+}
+.man-menu{
+	overflow: hidden;
+	border-bottom: 1px solid #d1d1d1;
+}
+.man-menu a{
+	
+	float: left;
+	font-size: 14px;
+	line-height: 58px;
+	text-align: center;
+	width: 20%;
+}
+.man-menu a:hover{
+	color: red;
+}
+.man-menu a:first-child{
+	border-bottom: 3px solid red;
+}
+.man-liu{
+	margin-top: 20px;
+	border: 1px solid #D1D1D1;
+}
+h2{
+	font-size: 30px;
+	color: black;
+	line-height: 44px;
+	margin: 60px 0 28px 0;
+	font-weight: 500;
+}
+.man-text{
+	line-height: 24px;
+	font-size: 16px;
+	color: grey;
+	letter-spacing: 1px;
+	margin-top: 20px;
+}
+.radio{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #D1D1D1;
+	vertical-align: -15%;
+}
+.man-travel-text{
+	padding-left: 15px;
+	margin-left: 10px;
+	border-left: 1px solid #D1D1D1;
+	padding-top: 20px;
+}
+.man-img{
+	display: flex;
+	justify-content: space-between;
+}
+.man-pri-info{
+	margin-bottom: 20px;
+}
+.basic-info{
+	font-size: 16px;
+	line-height: 34px;
+	color: grey;
+}
+.user-info{
+	display: flex;
+	font-size: 14px;
+	color: #333333;
+}
+.user-head{
+	
+	border-radius: 50%;
+}
+.msg{
+	padding: 10px 0 20px 0;
+	border-bottom: 1px solid #D1D1D1;
+	
+}
+.user-info div{
+	flex: 1;
+	padding: 5px 10px 0 10px;
+}
+.user-info div p{
+	line-height: 40px;
+}
+.user-info div p:first-child{
+	overflow: hidden;
+}
+.star{
+	width: 20px;
+	height: 20px;
+}
+.user-msg{
+	padding: 10px;
+	font-size: 18px;
+	color: grey;
+	line-height: 26px;
+}
+.man-r,.service{
+	position: relative;
+	border: 1px solid #D1D1D1;
+}
+.erweima{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.erweima1{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: -5px;
+	right: -130px;
+}
+.weixin{
+	position: relative;
+	display: block;
+}
+.router{
+	font-size: 24px;
+	line-height: 34px;
+	letter-spacing: 2px;
+	font-weight: 100;
+	margin-top: 30px;
+}
+.sort{
+	line-height: 40px;
+	font-size: 14px;
+	color: #888;
+	border-bottom: 1px solid #D1D1D1;
+}
+.price{
+	position: relative;
+	margin: 12px 0 15px 0;
+}
+.price span:first-child{
+	font-size: 32px;
+	color: red;
+}
+.price span:nth-child(2){
+	font-size: 20px;
+	color: #666666;
+}
+.price a{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	font-size: 12px;
+	color: #D1D1D1;
+}
+.choice{
+	border: 2px solid red;
+	line-height: 28px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	padding: 5px 10px;
+	text-align: center;
+}
+button{
+	line-height: 50px;
+	text-align: center;
+	background: red;
+	font-size: 18px;
+	color: white;
+	border: #000000;
+	width: 100%;
+	margin-top: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	
+}
+.man-r-list{
+	height: 50px;
+}
+.res,.heard{
+	width: 40%;
+	height: 100%;
+	
+}
+.res p{
+	color: grey;
+	height: 50%;
+	line-height: 25px;
+}
+.res p span{
+	color: #000000;
+}
+.heard{
+	width: 30%;
+	display: flex;
+	line-height: 50px;
+	justify-content: space-around;
+}
+.heard p{
+	color: grey;
+	height: 50%;
+	line-height: 25px;
+}
+.icon-xin{
+	font-size: 30px;
+	color: red;
+	cursor: pointer;
+}
+.advise{
+	color: #D1D1D1;
+	font-size: 12px;
+}
+.service{
+	position: absolute;
+	bottom: -150px;
+	left: 0;
+	width: 320px;
+	padding: 20px 20px 20px 20px;
+}
+.advise-person{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+.advise-person img{
+	width: 30%;
+	height: 100%;
+	border-radius: 50%;
+}
+.btn{
+	width:40%;
+	font-size: 12px;
+	line-height: 20px;
+}
+.advise-person p{
+	width:200px;
+	font-size: 14px;
+	color: grey;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	line-height: 26px;
+	
+}

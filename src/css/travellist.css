@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5B8B\4F53', sans-serif;
+	min-width: 1000px;
+    font-size: 12px;
+    background-color: #edefed;
+}
+
+.banner{
+	height: 437px;
+	
+}
+
+.tbmenu{
+	background-color: white;
+}
+.tbmenu ul{
+	width: 994px;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 5px;
+    text-align: center;
+}
+.tabbox a{
+	font-size: 14px;
+    color: #666;
+    cursor: pointer;
+    text-decoration: none;
+    outline: 0;
+}
+.tabbox .tbmenu li{
+	width: 300px;
+	position: relative;
+    display: inline-block;
+    height: 89px;
+    border: 1px solid #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+.tabbox .tbmenu li i{
+	display: inline-block;
+    padding: 13px 0 8px;
+    font-size: 30px;
+    color: #666;
+}
+.tabbox .tbmenu li p{
+	color: #333;
+}
+.tabbox .tbmenu .selected i,.tabbox .tbmenu .selected p{
+	color: #fff;
+}
+.selected{
+	border-color: #bd3d3e;
+    background-color: #ff5f69;
+    cursor: default;
+}
+.selected :after{
+	content: " ";
+    position: absolute;
+    bottom: -13px;
+    left: 50%;
+    margin-left: -11px;
+    width: 22px;
+    height: 13px;
+    background-image: url(https://pic2.8pig.com/img/pc/bubble.png);
+}
